@@ -1,4 +1,4 @@
-### Animated Navigation Bar
+# Animated Navigation Bar
 
 ## 📌 Project Overview
 
@@ -6,15 +6,15 @@ This project is a modern, responsive, and animated navigation bar designed for w
 
 ## 🚀 How to Run the Project
 
-# Download or Clone the Repository:
+### Download or Clone the Repository:
 
 git clone https://github.com/your-username/animated-navbar.git
 
-# Navigate to the Project Folder:
+### Navigate to the Project Folder:
 
 cd animated-navbar
 
-# Open index.html in any modern browser:
+### Open index.html in any modern browser:
 
 You can double-click the file
 
