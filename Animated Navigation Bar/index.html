@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Navigation Bar</title>
+    <link rel="stylesheet" href="./main.css">
+    
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#" class="logo">ModernNav</a>
+
+            <!-- Desktop Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" data-section="services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Search -->
+            <div class="search-container">
+                <button class="search-btn" id="searchBtn">🔍</button>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+            </div>
+
+            <!-- Hamburger Menu -->
+            <button class="hamburger" id="hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav">
+            <li class="mobile-nav-item">
+                <a href="#home" class="mobile-nav-link" data-section="home">Home</a>
+            </li>
+            <li class="mobile-nav-item">
+                <a href="#about" class="mobile-nav-link" data-section="about">About</a>
+            </li>
+            <li class="mobile-nav-item">
+                <a href="#services" class="mobile-nav-link" data-section="services">Services</a>
+            </li>
+            <li class="mobile-nav-item">
+                <a href="#portfolio" class="mobile-nav-link" data-section="portfolio">Portfolio</a>
+            </li>
+            <li class="mobile-nav-item">
+                <a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="home" class="demo-section">
+            <h1 class="hero-title">Welcome to ModernNav</h1>
+            <p class="hero-text">
+                This is a fully functional animated navigation bar with responsive design, 
+                smooth transitions, and interactive elements. Test the hamburger menu on mobile, 
+                try the search functionality, and see how the navigation adapts to different screen sizes.
+            </p>
+        </section>
+
+        <section id="about" class="demo-section">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">About Section</h2>
+            <p style="font-size: 1.2rem; max-width: 800px;">
+                The navigation bar features a sticky header that changes appearance as you scroll, 
+                a progress indicator showing your position on the page, and smooth hover effects 
+                that enhance the user experience.
+            </p>
+        </section>
+
+        <section id="services" class="demo-section">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Services Section</h2>
+            <p style="font-size: 1.2rem; max-width: 800px;">
+                All animations are smooth and performant, using CSS transitions and transforms 
+                for optimal performance across all devices and browsers.
+            </p>
+        </section>
+
+        <section id="portfolio" class="demo-section">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Portfolio Section</h2>
+            <p style="font-size: 1.2rem; max-width: 800px;">
+                The responsive design ensures perfect functionality on desktop, tablet, and mobile devices, 
+                with touch-friendly interactions and appropriate sizing for all screen sizes.
+            </p>
+        </section>
+
+        <section id="contact" class="demo-section">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Contact Section</h2>
+            <p style="font-size: 1.2rem; max-width: 800px;">
+                Thank you for testing the navigation bar! All features are working properly, 
+                including the search functionality, mobile menu, and smooth scrolling between sections.
+            </p>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
