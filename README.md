@@ -45,6 +45,8 @@ No server setup is required — it’s a static frontend project.
 - Scroll progress indicator
 
 - Animated active link effects
+- 
+- Navigation Bar Entrance Animations
 
 ## 🖼️ Preview
 
