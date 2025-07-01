@@ -97,15 +97,6 @@ ModernNav is a comprehensive navigation solution that provides:
 - Safari 12+
 - Edge 79+
 
-### Partially Supported
-- Internet Explorer 11 (without backdrop-filter)
-- Older mobile browsers (reduced animations)
-
-### Fallbacks
-- Backdrop-filter fallback for older browsers
-- Transform fallbacks for legacy support
-- Graceful degradation for unsupported features
-
 ## 🔄 Future Enhancements
 
 ### Planned Features
