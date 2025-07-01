@@ -28,7 +28,7 @@ No server setup is required — it’s a static frontend project.
 
 - **CSS3** – For styling, transitions, responsiveness, and animations
 
--**JavaScript (Vanilla)** – For interactivity such as menu toggle, search, scroll detection, and active link highlighting
+- **JavaScript (Vanilla)** – For interactivity such as menu toggle, search, scroll detection, and active link highlighting
 
 ## 📱 Features
 
